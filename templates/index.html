@@ -1,0 +1,15 @@
+{% extends 'base.html' %} 
+
+{% block title %} <title>Cintio`s Secret Santa</title> {% endblock %}
+
+{% block body %} 
+  <body id="background">
+
+    <!--Link for Custom JS - Snowflakes Animation-->
+    <script type="text/javascript" src="{{url_for('static', filename='scripts/particles.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='scripts/app.js')}}"></script>
+
+    <div id="snowman"></div>
+    
+  </body>
+{% endblock %}

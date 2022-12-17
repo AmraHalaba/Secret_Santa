@@ -1,0 +1,8 @@
+****
+REQUIREMENTS:
+flask
+psycopg2
+psycopg2-binary (in case of issues)
+flask-sqlalchemy
+Flask-Migrate
+gunicorn (for deployment)

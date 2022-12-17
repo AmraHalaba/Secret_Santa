@@ -1,0 +1,25 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#snowman {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  background: white;
+  border-radius: 80%;
+  backface-visibility: hidden;
+}
+
+#background {
+  background-image: url('../photos/background.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
